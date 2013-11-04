@@ -18,9 +18,11 @@ rsync -avz wordpress.old/wp-content/themes/ wordpress/wp-content/themes/
 rsync -avz wordpress.old/wp-content/plugins/ wordpress/wp-content/plugins/
 
 # Paketkan backup
-tar cf wordpress-`date '%Y%m%d'`.tar wordpress.old/
-bzip2 -9 wordpress-`date '%Y%m%d'`.tar
+tar cf wordpress-`date '+%Y%m%d'`.tar wordpress.old/
+bzip2 -9 wordpress-`date '+%Y%m%d'`.tar
 
 # Hapus folder  backup
 rm -rf wordpress.old
 
+# Hapus berkas wordpress
+rm wp.tar.gz
