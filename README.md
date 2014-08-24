@@ -1,4 +1,4 @@
-Gudang kode ini berisi skrip yang mempermudah saya melakukan manajemen mesin peladen.
+Gudang kode ini berisi skrip yang mempermudah saya.
 
 Semua skrip di sini adalah bukan serta merta merupakan rilis yang bisa digunakan pada mesin produksi.
 Apapun yang ada dalam skrip ini masih dalam tahap pengembangan.
