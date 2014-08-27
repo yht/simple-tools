@@ -1,3 +1,6 @@
+simple-tools
+============
+
 Gudang kode ini berisi skrip yang mempermudah saya.
 
 Semua skrip di sini adalah bukan serta merta merupakan rilis yang bisa digunakan pada mesin produksi.
@@ -7,6 +10,7 @@ Saya tidak bertanggung jawab terhadap kerusakan yang mungkin terjadi akibat skri
 
 Terima kasih atas perhatiannya.
 
-Regards,
-Yudha H Tejaningrat
+Regards,<br />
+Yudha H Tejaningrat<br />
 http://yht.web.id
+-----------------
