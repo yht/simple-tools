@@ -1,7 +1,7 @@
 simple-tools
 ============
 
-Gudang kode ini berisi skrip yang mempermudah saya.
+Gudang kode ini berisi skrip-skrip sederhana yang mempermudah saya.
 
 Semua skrip di sini adalah bukan serta merta merupakan rilis yang bisa digunakan pada mesin produksi.
 Apapun yang ada dalam skrip ini masih dalam tahap pengembangan.
@@ -13,4 +13,4 @@ Terima kasih atas perhatiannya.
 Regards,<br />
 Yudha H Tejaningrat<br />
 http://yht.web.id
------------------
+
