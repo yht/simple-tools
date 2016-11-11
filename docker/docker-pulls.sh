@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Make a list of exited container
-list=`docker images | grep "latest" | awk '{print $1}'`
+# Make a list of all images:tags
+list=`docker images | awk '{print $1 ":" $2}'`
 
 # Remove container based on list
 for i in $list
