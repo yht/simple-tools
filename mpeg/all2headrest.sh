@@ -11,9 +11,7 @@ Folder="$1"
 for i in $(ls)
 do
  echo "$i"
- avconv -y -i "$i" -f dvd -target pal-dvd -b:v 5000k -r 25 \
-    -filter:v scale=640:480 -ar 48000 -b:a 44k -b:a 44k \
-    "$Folder$(echo `basename -s .mp4 $i`).mpg"
+ avconv -y -i "$i" -filter:v scale=640:360 "$Folder$i"
 done
 
 IFS=$SAVEIFS
