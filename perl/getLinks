@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+use WWW::Mechanize;
+
+# state new mechanize
+my $mech = WWW::Mechanize->new();
+# get page from the url
+$mech->get($ARGV[0]);
+# list all links on the page
+my @links = $mech->links();
+# loop for all links
+for my $link ( @links ) {
+    # print per link
+    printf "%s\n", $link->url;
+}
