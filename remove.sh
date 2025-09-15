@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm $HOME/bin/files-xz
-rm $HOME/bin/files-xz
+rm $HOME/bin/subfolders-tar-xz
 rm $HOME/bin/docker-pulls
 rm $HOME/bin/docker-rm-exited
 rm $HOME/bin/docker-rmi-unused
