@@ -6,3 +6,4 @@ rm $HOME/bin/docker-pulls
 rm $HOME/bin/docker-rm-exited
 rm $HOME/bin/docker-rmi-unused
 rm $HOME/bin/git-mass-update
+rm $HOME/bin/pyenv-install
